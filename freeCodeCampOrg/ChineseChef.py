@@ -1,5 +1,6 @@
-from Chef import Chef # inherit form Chef.py
-class ChineseChef:
+from Chef import Chef   #inherit form Chef.py
+
+class ChineseChef(Chef):
 
     def make_special_dish(self):
         print('The chef can make a orange chicken')
